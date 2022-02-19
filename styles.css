@@ -2,16 +2,14 @@
     margin:0;
     padding: 0;
     font-family: sans-serif;
+
   }
   #particles-js {
-    background: white;
-    height: 100vh;
-    /* position: absolute; */
-    
+    position: fixed;
 }
   .navbar{
     display: flex;
-    position: relative;
+    /* position: relative; */
     justify-content: space-between;
     align-items: center;
     padding: 0px 100px 0px 100px;
@@ -42,7 +40,7 @@
       background-color: rgba(172, 172, 172, 0.144);
   }
   .toggle-button {
-    position: absolute;
+    /* position: absolute; */
     top: .75rem;
     right: 1rem;
     display: none;
@@ -66,8 +64,6 @@
   color: rgba(41, 41, 41, 0.76);
   background-color: rgba(224, 224, 224, 0.384);
   border-radius: 3%;
-  position:absolute;
-  top: 5%;
 }
 .heading h1{
   padding-top: 4%;
@@ -85,17 +81,16 @@
   background-color: rgba(224, 224, 224, 0.493);
   /* background: none; */
   padding: 5%  5% ;
-  position: relative;
-  top: 10%  ;
+
 }
 
 .splide__list li{
   padding: 0% 10% 0% 10%;
   text-align: justify;
 }
-.content{
+/* .content{
   position: absolute;
-}
+} */
 @media (max-width: 700px) {
     .navbar {
         flex-direction: column;
